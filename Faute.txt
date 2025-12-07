@@ -1,0 +1,42 @@
+
+class Test {
+x;
+y;
+afficher(a, b) {
+    this.x = a + b * 2;
+    if (this.x >= 10) { this.y = this.x; } else { this.y = b; }
+}
+incrementer() {
+    this.x++;
+    return this.x;
+}
+}
+let t = new Test();
+function calcule(n) {
+let result = 0;
+switch (n) {
+    case 1:
+        result = n * 2
+        break;
+    case 2:
+        result = n + 5;
+        break;
+    case 3:
+        result = (n + 1) * (n - 1);
+        break;
+default:
+        result = -1;
+        break;
+}
+return result;
+}
+let 3v = calcule(3);
+t.afficher(v, 4) ;
+if (v > 5) {
+t.incrementer(;
+} else {
+t.x = t.x - 1;
+}
+while (t.x < 20) {
+t.x += 2;
+}

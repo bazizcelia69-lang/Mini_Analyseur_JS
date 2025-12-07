@@ -1,0 +1,4 @@
+let total = 42
+function calculer() {
+    return total
+} // Manque un point-virgule après 'total' et après '42'

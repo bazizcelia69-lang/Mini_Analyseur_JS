@@ -1,0 +1,20 @@
+/*
+ * Un commentaire multi-lignes
+ */
+let Baziz = 10;
+const Celia = Baziz + 5; // Celia est un mot-clé, mais est traité ici comme un Identificateur valide.
+
+function calculer(a, b) {
+    if (a < Baziz) {
+        return 0;
+    }
+    Celia = 20; // Ceci sera traité comme une réaffectation illégale de MotCle, mais lexicalement OK.
+    return Celia; 
+}
+
+let resultat = calculer(10, 20);
+
+// Voici une erreur lexicale:
+let nbrInvalide = 12a3;
+
+// Fin

@@ -1,0 +1,17 @@
+let x = 10;
+const y = 20;
+
+function addition(a, b) {
+    return a + b;
+}
+
+if (x < y) {
+    addition(x, y);
+}
+
+class MaClasse {
+    attribut = 5;
+    methode(val) {
+        this.attribut = val;
+    }
+}
